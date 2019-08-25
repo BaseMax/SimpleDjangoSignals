@@ -12,6 +12,6 @@ def bookCreated(sender, instance, created, **kwargs):
 
 signals.post_save.connect(receiver=bookCreated, sender=book)
 
-# obj = book(name='book1', author='user1', code='123456')
+# item = book(name='book1', author='user1', code='123456')
 # ...
-# obj.save()
+# item.save()
