@@ -8,7 +8,7 @@ class book(models.Model):
 	code = models.CharField(max_length=9)
 
 def bookCreated(sender, instance, created, **kwargs):
-	print "Save is called"
+	print "Saved!"
 
 signals.post_save.connect(receiver=bookCreated, sender=book)
 
