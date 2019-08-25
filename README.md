@@ -2,6 +2,10 @@
 
 Sample repository to lean Django Signals in small script Using Python.
 
+## Django Signals
+
+In a nutshell, signals allow certain senders to notify a set of receivers that some action has taken place. They're especially useful when many pieces of code may be interested in the same events. Django provides a set of built-in signals that let user code get notified by Django itself of certain actions.
+
 ## Suitable References
 
 - https://docs.djangoproject.com/en/2.2/ref/signals/#post-save
